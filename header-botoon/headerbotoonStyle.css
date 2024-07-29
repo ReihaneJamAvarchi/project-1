@@ -1,0 +1,91 @@
+.header2{
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color:#212529;
+    background-color: #ffffff;
+    width: 1110px;
+    height: 110px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9
+}
+
+.leftheader2{
+    display: flex;
+    align-items: center;
+    width: 245px;
+    height: 100px;
+    flex-direction: row;
+}
+
+.imgicon{
+    width: 65px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+} 
+
+.brand{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 180px;
+    height: 35px;
+}
+
+.rightheader2{
+    display: flex;
+    float: right;
+    width: 745px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.textmeno{
+    width: 610px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.nav-menu{
+    width: 610px;
+    height: 100px;
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    direction: ltr;
+    text-align: left;
+    justify-content:space-around;
+    align-items: center;
+}
+.listmeno{
+    padding: 42px 15px 42px 0px;
+    color: #222222;
+    font-size: 14px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.iconmeno{
+    width: 130px;
+    height: 110px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.icons{
+    padding: 40px 0px 40px 20px;
+}

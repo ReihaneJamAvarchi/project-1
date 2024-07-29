@@ -1,0 +1,75 @@
+.meno{
+    width: 1350px;
+    height: 50px;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+    display: block;
+    unicode-bidi: isolate;
+    font-family: Lato, sans-serif;
+}
+.container{
+    min-width: 1200px;
+    max-width: 1140px;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    box-sizing: border-box;
+    unicode-bidi: isolate;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: nowrap ;
+    flex-direction: row;
+}
+.leftheader{
+    width: 550px;
+    height: 50px;
+    text-align: left !important;
+    width: 50%;
+    
+
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: #999999;
+}
+.listphone{
+    padding-right: 25px;
+    list-style-type: none;
+}
+i{
+    width: 10px;
+    height: 15px;
+    padding-right: 10px;
+    color: #ff4c3b;
+    font-size: inherit;
+}
+
+.rightheader{
+    width: 550px;
+    height: 50px;
+    text-align: right !important;
+    width: 50%; 
+    display: flex;
+    justify-content: flex-end;
+    
+} 
+
+.Compare{
+    list-style-type: none;
+    padding-left: 25px;
+
+}
+.Wishlist{
+    list-style-type: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.Account{
+    list-style-type: none;
+    padding-right: 25px;
+
+}
