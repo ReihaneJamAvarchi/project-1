@@ -1,0 +1,74 @@
+.ourTeam{
+    width:1140px ;
+    height: 456px;
+    padding: 70px 0px;
+    margin: 0px 105px;
+}
+
+.titr{
+    width: 1100px;
+    height: 30px;
+    color: #222222;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dddada;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-family: Lato, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    unicode-bidi: isolate;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.team4{
+    width: 1100px;
+    height: 400px;
+}
+.stage{
+    
+    position: relative;
+    touch-action: manipulation;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.stageitem{
+    width: 280px;
+    height: 400px;
+}
+.img3{
+    width: 260px;
+    height: 340px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.namestage{
+    width: 280px;
+    height: 18px;
+    color: #ff4c3b;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    user-select: none;
+}
+.jabstage{
+    margin-bottom: -3px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 24px;
+    margin-top: 0px;
+
+}

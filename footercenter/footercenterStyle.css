@@ -1,0 +1,78 @@
+.footercenter{
+    background-color: #f9f9f9;
+    padding: 70px 12px;
+    width: 1100px;
+    height: 210px;
+    margin: 0px 105px;
+    display: flex;
+    flex-wrap: nowrap;
+    border-top: 1px solid #dddddd;
+    
+}
+
+.kart{
+    width: 356px;
+    height: 210px;
+    margin-right: 95px;
+}
+.brand2{
+    width: 180px;
+    height: 34px;
+    margin-bottom: 18px;
+}
+.lorm{
+    width: 330px;
+    height: 96px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #777777;
+    margin: 0;
+}
+
+.footersocial{
+    width: 356px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.information{
+    width: 198px;
+    height: 210px;
+    padding: 0px 12px;
+}
+.informationTitle{
+    width: 198px;
+    height: 16px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    font-size:16px;
+    color: #222222;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.informationcontant{
+    width: 198px;
+    height: 136px;
+    padding: 0;
+}
+.informationList{
+    position: relative;
+    padding-top: 13px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 14px;
+    color: #777777;
+    list-style-type: none;
+    width: 198px;
+    height: 21px;
+}
+
+.choose{
+    width: 198px;
+    height: 210px;
+    padding: 0px 12px;
+}

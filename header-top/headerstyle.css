@@ -43,7 +43,6 @@ ul{
 i{
     width: 10px;
     height: 15px;
-    padding-right: 10px;
     color: #ff4c3b;
     font-size: inherit;
 }
@@ -58,18 +57,10 @@ i{
     
 } 
 
-.Compare{
-    list-style-type: none;
-    padding-left: 25px;
-
-}
-.Wishlist{
-    list-style-type: none;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-.Account{
+.menolist{
     list-style-type: none;
     padding-right: 25px;
-
+}
+.menolist:hover{
+    color: #ff4c3b;
 }

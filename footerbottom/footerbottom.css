@@ -1,0 +1,38 @@
+.footerbottom{
+    background-color: #ffffff;
+    width: 1350px;
+    height: 72px;
+}
+.footerend{
+    width: 1100px;
+    height: 72px;
+    padding: 0px;
+    margin: 0px 105px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.footerendleft{
+    width: 546px;
+    height: 32px;
+    padding: 20px 12px;
+    color: #777777;
+    margin: 0;
+    line-height: 32px;
+    font-size: 14px;
+}
+.footerendright{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    width: 546px;
+    
+}
+.imglist{
+    list-style-type: none;
+    padding: 0px 7px;
+    width: 26px;
+    height: 26px;
+
+}
