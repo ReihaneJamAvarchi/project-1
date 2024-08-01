@@ -59,7 +59,7 @@ footer{
     justify-content: flex-end;
 }
 
-.inputemeil{
+.inputemeile{
     margin-right: 1rem !important;
     margin-left: 1rem !important;
     width: 215px;
@@ -96,4 +96,10 @@ footer{
     line-height: 20px;
     text-transform: uppercase;
     
+}
+.butSub:hover{
+    background-position: 100%;
+    color: #000000 !important;
+    background-color: #ffffff;
+    transition: 0.3s;
 }
