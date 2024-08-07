@@ -15,17 +15,16 @@
     unicode-bidi: isolate;
     font-size: 14px;
     display: flex;
-    flex-wrap: nowrap ;
+    flex-wrap: nowrap;
     flex-direction: row;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .leftheader{
-    width: 50%;
+    width: 546px;
     height: 50px;
     text-align: left !important;
-
 }
 ul{
     display: flex;
@@ -33,6 +32,7 @@ ul{
     flex-direction: row;
     justify-content: flex-start;
     color: #999999;
+    padding-left: 0;
 }
 .listphone{
     padding-right: 25px;
@@ -60,19 +60,45 @@ i{
     text-align: right !important;
     display: flex;
     justify-content: flex-end;
-    
+    flex-direction: row;
 } 
-
 .menolist{
     list-style-type: none;
     padding-right: 25px;
+    cursor: pointer;
+}
+.menolist2{
+    list-style-type: none;
+    padding-right: 15px;
+    cursor: pointer;
 }
 .fa-random{
-    padding-right: 5px;
+    padding-right: 9px;
     color: #999999;
     font-size: 14px;
-    
 }
-.menolist:hover{
+.fa-heart{
+    padding-right: 9px;
+    color: #999999;
+    width: 13px;
+    height: 13px;
+}
+.fa-user{
+    padding-right: 5px;
+    color: #999999;
+    font-size: 11px;
+}
+.fa-duotone{
+    padding: 0;
+    margin: 0;
+    color: #999999;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.fa-random:hover  ,
+.menolist:hover ,
+.fa-heart:hover ,
+.fa-user:hover{
     color: #ff4c3b;
 }
