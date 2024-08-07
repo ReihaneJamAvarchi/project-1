@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: nowrap;
     border-top: 1px solid #dddddd;
-    
+    font-family: Lato, sans-serif;
 }
 
 .kart{
@@ -35,7 +35,27 @@
     display: flex;
     align-items: center;
     margin-top: 40px;
+    list-style-type: none;
+    padding: 0;
 }
+.fa-facebook ,
+.fa-google-plus,
+.fa-twitter,
+.fa-instagram,
+.fa-rss{
+    padding-right: 45px;
+    padding-left: 0px;
+    font-size: 16px;
+    color: #212529;
+}
+.fa-facebook:hover ,
+.fa-google-plus:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-rss:hover{
+    color:#ff4c3b;
+}
+
 
 
 .information{
@@ -53,22 +73,34 @@
     margin-bottom: 25px;
     text-transform: uppercase;
     font-weight: 700;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .informationcontant{
     width: 198px;
     height: 136px;
-    padding: 0;
+    padding:0px;
 }
 .informationList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-items:left;
     position: relative;
     padding-top: 13px;
+    padding-bottom: 0px;
     text-transform: capitalize;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 13px;
     color: #777777;
     list-style-type: none;
-    width: 198px;
-    height: 21px;
+    width: 160px;
+    height: 20px;
+    line-height: 0.03rm;
+}
+
+.store{
+    padding-top: 25px;
 }
 
 .choose{

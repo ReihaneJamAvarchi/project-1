@@ -113,6 +113,12 @@
     margin-right: 0px;
     border-left: 1px solid #dddddd;   
 }
+.fa-heart , .fa-comments{
+    padding-right: 5px;
+    padding-left: 0px;
+    color: #777777;
+    font-size: 14px;
+}
 .Consequences{
     font-family: Lato, sans-serif;
     width: 403.5px;

@@ -1,5 +1,5 @@
 .meno{
-    width: 1350px;
+    width: 1333px;
     height: 50px;
     background-color: #f8f8f8;
     box-sizing: border-box;
@@ -8,25 +8,23 @@
     font-family: Lato, sans-serif;
 }
 .container{
-    min-width: 1200px;
-    max-width: 1140px;
-    height: 50px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin:0px 105px;
     box-sizing: border-box;
     unicode-bidi: isolate;
     font-size: 14px;
     display: flex;
     flex-wrap: nowrap ;
     flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
 }
 .leftheader{
-    width: 550px;
+    width: 50%;
     height: 50px;
     text-align: left !important;
-    width: 50%;
-    
 
 }
 ul{
@@ -40,6 +38,16 @@ ul{
     padding-right: 25px;
     list-style-type: none;
 }
+.fa-phone{
+    padding-right: 10px;
+    width: 11px;
+    height: 14px;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    font-size: 10px;
+    text-rendering: auto;
+    display: inline;
+}
 i{
     width: 10px;
     height: 15px;
@@ -48,10 +56,8 @@ i{
 }
 
 .rightheader{
-    width: 550px;
-    height: 50px;
+    width: 50%;
     text-align: right !important;
-    width: 50%; 
     display: flex;
     justify-content: flex-end;
     
@@ -60,6 +66,12 @@ i{
 .menolist{
     list-style-type: none;
     padding-right: 25px;
+}
+.fa-random{
+    padding-right: 5px;
+    color: #999999;
+    font-size: 14px;
+    
 }
 .menolist:hover{
     color: #ff4c3b;
