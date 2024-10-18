@@ -1,11 +1,11 @@
-.thankyou{
+.thankyou {
     font-family: Lato, sans-serif;
     background-color: #f9f9f9;
-    width: 1333px;
     height: 170px;
     padding: 70px 0px;
 }
-.thank{
+
+.thank {
     height: 170px;
     padding: 0px 12px;
     margin: 0px 105px;
@@ -17,7 +17,7 @@
     flex-direction: column;
 }
 
-.maintitle{
+.maintitle {
     font-size: 32px;
     margin-top: 10px;
     margin-bottom: 15px;
@@ -28,7 +28,8 @@
     align-items: center;
     height: 32px;
 }
-.maintext{
+
+.maintext {
     font-size: 18px;
     text-transform: capitalize;
     color: #777777;
@@ -38,7 +39,8 @@
     text-align: center;
     align-items: center;
 }
-.maintext2{
+
+.maintext2 {
     font-size: 18px;
     text-transform: capitalize;
     margin: 0;
@@ -46,31 +48,34 @@
     line-height: 24px;
     text-align: center;
 }
-.details{
+
+.details {
     height: 373px;
     padding: 70px 0px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.detail{
+
+.detail {
     height: 373px;
     padding: 0px;
     max-width: 0px 105px;
     display: flex;
     align-items: center;
-    margin: 0px 105px;
+    margin: auto;
     flex-wrap: nowrap;
     flex-direction: row;
 }
 
-.detailleft{
+.detailleft {
     font-family: Lato, sans-serif;
     width: 546px;
     height: 373px;
     padding: 0px 12px;
 }
-.detailtitle{
+
+.detailtitle {
     font-weight: 700;
     text-transform: uppercase;
     color: #000000;
@@ -80,21 +85,24 @@
     width: 546px;
     height: 29px;
 }
-.product{
-    margin:15px -12px 0px -12px;
+
+.product {
+    margin: 15px -12px 0px -12px;
     display: flex;
     flex-wrap: wrap;
     width: 570px;
     height: 130px;
 }
-.producabject{
+
+.producabject {
     display: flex;
     align-items: center;
     width: 118px;
     height: 130px;
     padding: 0px 12px;
 }
-.producttitr{
+
+.producttitr {
     width: 90px;
     height: 30px;
     display: flex;
@@ -105,14 +113,16 @@
     margin-top: 0;
     margin-bottom: 5px;
 }
-.producttitr2{
+
+.producttitr2 {
     text-transform: capitalize;
     font-size: 16px;
     color: #222222;
     line-height: 24px;
     margin: 0;
 }
-.totals{
+
+.totals {
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
     margin: 15px 0px;
@@ -120,9 +130,9 @@
     width: 546px;
     height: 99px;
     gap: 9px;
-
 }
-.totalslist{
+
+.totalslist {
     width: 546px;
     height: 27px;
     display: flex;
@@ -136,11 +146,12 @@
     color: #222222;
 }
 
-.sumTotal{
+.sumTotal {
     width: 546px;
     height: 29px;
 }
-.sumAllTotal{
+
+.sumAllTotal {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -153,7 +164,7 @@
     margin: 0;
 }
 
-.detailright{
+.detailright {
     font-family: Lato, sans-serif;
     width: 570px;
     height: 373px;
@@ -161,12 +172,14 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
-.summery{
+
+.summery {
     width: 260px;
     height: 138px;
     padding: 0px 12px;
 }
-.summeryTitle{
+
+.summeryTitle {
     font-weight: 700;
     text-transform: capitalize;
     font-size: 18px;
@@ -176,13 +189,15 @@
     margin-bottom: 8px;
     margin-top: 0px;
 }
-.orderdetail{
+
+.orderdetail {
     width: 260px;
     height: 84px;
     margin: 0px;
     padding: 0px;
 }
-.listorder{
+
+.listorder {
     width: 260px;
     height: 28px;
     display: flex;
@@ -192,24 +207,27 @@
     list-style-type: none;
     color: #212529;
 }
-.shippingAddress{
+
+.shippingAddress {
     width: 260px;
     height: 138px;
     padding: 0px 12px;
-    
 }
-.orderdetail2{
+
+.orderdetail2 {
     width: 260px;
     height: 112px;
     margin: 0px;
     padding: 0px;
 }
-.paymentMethod{
+
+.paymentMethod {
     width: 546px;
     height: 78px;
     padding: 0px 12px;
 }
-.paymentTitle{
+
+.paymentTitle {
     font-weight: 700;
     text-transform: capitalize;
     font-size: 18px;
@@ -220,7 +238,8 @@
     margin-bottom: 8px;
     padding: 0px;
 }
-.paymentTitle2{
+
+.paymentTitle2 {
     font-size: 16px;
     line-height: 26px;
     color: #777777;
@@ -229,13 +248,15 @@
     margin: 0px;
     padding: 0px;
 }
-.deliverydata{
+
+.deliverydata {
     width: 546px;
     height: 157px;
     padding: 0px 12px;
     margin: 0px;
 }
-.deliverysec{
+
+.deliverysec {
     padding: 30px;
     text-align: center;
     margin-top: 20px;
@@ -244,7 +265,8 @@
     width: 486px;
     height: 77px;
 }
-.deliverytitr{
+
+.deliverytitr {
     color: #000000;
     text-transform: capitalize;
     font-size: 24px;
@@ -256,7 +278,8 @@
     margin-top: 0px;
     margin-bottom: 8px;
 }
-.deliverymoon{
+
+.deliverymoon {
     color: #000000;
     text-transform: capitalize;
     font-size: 32px;

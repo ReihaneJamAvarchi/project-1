@@ -1,10 +1,11 @@
-.footerbottom{
+.footerbottom {
     background-color: #ffffff;
     width: 1350px;
     height: 72px;
     font-family: Lato, sans-serif;
 }
-.footerend{
+
+.footerend {
     width: 1100px;
     height: 72px;
     padding: 0px;
@@ -13,7 +14,8 @@
     flex-wrap: nowrap;
     flex-direction: row;
 }
-.footerendleft{
+
+.footerendleft {
     width: 546px;
     height: 32px;
     padding: 20px 12px;
@@ -22,18 +24,18 @@
     line-height: 32px;
     font-size: 14px;
 }
-.footerendright{
+
+.footerendright {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     text-align: center;
     width: 546px;
-    
 }
-.imglist{
+
+.imglist {
     list-style-type: none;
     padding: 0px 7px;
     width: 26px;
     height: 26px;
-
 }

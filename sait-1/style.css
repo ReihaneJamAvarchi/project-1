@@ -1,58 +1,46 @@
-*{
+* {
     font-family: Lato, sans-serif;
 }
 
-.header1{
+.header1 {
     background-color: #f8f8f8;
-    width:  1333px;
     height: 50px;
     margin: auto;
-    display: flex;
     flex-direction: row;
-    
 }
 
-.home{
+.home {
     font-family: Lato, sans-serif;
     background-color: #f8f8f8;
-    width: 1333px;
     height: 80px;
     display: flex;
-    justify-content:space-between;
-    
-
-
+    justify-content: space-between;
 }
 
-.About{
+.About {
     font-size: 16px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     text-align: center;
     padding: 30px 10px;
-    margin:0% 105px;
-    justify-content:space-between;
-    
-
+    margin: 0% 105px;
+    justify-content: space-between;
 }
-#href , a {
+
+#href,
+a {
     font-size: 14px;
     color: #555555;
     text-decoration: none;
 }
 
-
-
-#aboutfashion{
-    width: 1333px;
+#aboutfashion {
     height: 570px;
     padding: 70px 0px;
 }
 
-
-
-.img1{
+.img1 {
     width: 1100px;
     height: 310px;
     margin: auto;
@@ -61,7 +49,7 @@
     display: flex;
 }
 
-.title{
+.title {
     width: 1100px;
     height: 25px;
     margin: auto;
@@ -70,13 +58,13 @@
     justify-content: center;
 }
 
-h4{
+h4 {
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 10px;
 }
 
-.text{
+.text {
     width: 1100px;
     height: 260px;
     font-size: 14px;
@@ -84,36 +72,36 @@ h4{
     line-height: 2;
 }
 
-.test{
+.test {
     background-color: #f7f7f7;
-    width: 1333px;
     height: 260px;
     padding-top: 35px;
     padding-bottom: 35px;
     display: flex;
     unicode-bidi: isolate;
     box-sizing: border-box;
-    align-items:center;
-    justify-content:center;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
 }
-.testitem{
+
+.testitem {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.img2{
+
+.img2 {
     border-radius: 100%;
     border: 1px solid #dddddd;
     padding: 5px;
     height: 120px;
     width: 120px;
-    
 }
 
-.name{
+.name {
     font-weight: 700;
     color: #ff4c3b;
     margin-bottom: 0;
@@ -121,10 +109,10 @@ h4{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.05em;
-    text-align: center
-    
+    text-align: center;
 }
-.jab{
+
+.jab {
     font-size: 14px;
     font-weight: 400;
     color: #777777;
@@ -132,15 +120,17 @@ h4{
     margin-top: 0;
     margin-bottom: 0.5rem;
     display: block;
-    text-align: center
+    text-align: center;
 }
-.bio{
+
+.bio {
     width: 320px;
     height: 110px;
     line-height: 2;
-    letter-spacing: 0.03em;font-size: 14px;
+    letter-spacing: 0.03em;
+    font-size: 14px;
     color: #777777;
     margin-top: 0;
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
     padding: 30px 75px 30px 30px;
 }

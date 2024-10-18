@@ -1,17 +1,20 @@
-footer{
+footer {
     background-color: #f9f9f9;
-    width: 1333px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     height: 544px;
     font-family: Lato, sans-serif;
 }
-.footertop{
+
+.footertop {
     background-color: #f9f9f9;
     font-family: Lato, sans-serif;
-    width:1333px ;
+    width: 1333px;
     height: 120px;
 }
 
-.footerstart{
+.footerstart {
     width: 1100px;
     height: 50px;
     padding: 35px 0px;
@@ -19,7 +22,7 @@ footer{
     border-bottom: 1px solid #dddddd;
 }
 
-.footerrow{
+.footerrow {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -27,7 +30,7 @@ footer{
     align-items: center;
 }
 
-.rowleft{
+.rowleft {
     width: 545px;
     height: 50px;
     padding: 0px;
@@ -35,22 +38,22 @@ footer{
     text-align: left;
     align-items: center;
     justify-content: center;
-    
 }
 
-.footertext{
+.footertext {
     margin-bottom: 10px;
     color: #222222;
     margin-top: -5px;
     font-size: 18px;
 }
-.footertext2{
+
+.footertext2 {
     line-height: 1;
     font-size: 14px;
     color: #777777;
 }
 
-.rowright{
+.rowright {
     width: 545px;
     height: 50px;
     padding: 0px 12px;
@@ -60,14 +63,15 @@ footer{
     justify-content: flex-end;
 }
 
-.inputemeile{
+.inputemeile {
     margin-right: 1rem !important;
     margin-left: 1rem !important;
     width: 215px;
     height: 50px;
     margin: 0px 16px;
 }
-.inputemeli{
+
+.inputemeli {
     width: 187px;
     height: 22px;
     padding: 13px;
@@ -76,11 +80,10 @@ footer{
     appearance: none;
 }
 
-.butSub{
+.butSub {
     width: 142px;
     height: 50px;
     cursor: pointer;
-    padding: 13px 29px;
     color: #ffffff !important;
     border: 2px solid #ff4c3b !important;
     background-image: linear-gradient(30deg, #ff4c3b 50%, transparent 50%) !important;
@@ -89,16 +92,17 @@ footer{
     background-position: 0;
     font-size: 14px;
     border-radius: 0;
-    margin: 0;
+    margin: auto;
     text-align: center;
     align-items: center;
     display: flex;
     justify-content: center;
     line-height: 20px;
     text-transform: uppercase;
-    
+    text-decoration: none;
 }
-.butSub:hover{
+
+.butSub:hover {
     background-position: 100%;
     color: #000000 !important;
     background-color: #ffffff;

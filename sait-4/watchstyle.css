@@ -1,28 +1,31 @@
-.menwatch{
+.menwatch {
     padding: 0 !important;
     font-family: Lato, sans-serif;
     --theme-deafult: #e4604a;
-
+    display: flex;
+    justify-content: center;
 }
 
-.backimg{
+.backimg {
     width: 1333px;
     height: 75vh;
     position: relative;
     z-index: 1;
-    background-image: url(https://angular.pixelstrap.com/multikart/assets/images/slider/9.jpg);
+    background-image: url(../image.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     text-align: center !important;
 }
-.mittnalier{
+
+.mittnalier {
     text-align: center !important;
     height: 75vh;
     padding: 0px 12px;
     margin: 0px 105px;
 }
-.mittnalierrow{
+
+.mittnalierrow {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -33,14 +36,16 @@
     justify-content: start;
     margin: 0px -12px;
 }
-.titlewatch{
+
+.titlewatch {
     width: 357px;
     height: 167px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.everytime{
+
+.everytime {
     font-family: Lato, sans-serif;
     font-weight: 700;
     letter-spacing: 0.4em;
@@ -51,11 +56,12 @@
     text-transform: capitalize;
     line-height: 1;
 }
-.mittnaliertitr{
+
+.mittnaliertitr {
     margin-bottom: 0;
     margin-top: 10px;
     color: #222222;
-    font-size: 60px;  
+    font-size: 60px;
     line-height: 1.2;
     font-weight: 700;
     text-transform: uppercase;
@@ -63,20 +69,24 @@
     text-align: center;
     align-items: center;
 }
-.btnshop{
+
+.btnshop {
     margin-top: 20px;
     background-color: #e4604a;
     width: 83px;
     height: 20px;
     text-decoration: none;
-    justify-items:center;
+    justify-items: center;
 }
-.logowatch{
+
+.logowatch {
     padding-top: 70px;
-    width: 1333px;
+    display: flex;
+    justify-content: center;
     height: 125px;
 }
-.logos{
+
+.logos {
     width: 1100px;
     height: 125px;
     padding: 0px 12px;
@@ -85,24 +95,31 @@
     flex-wrap: nowrap;
     flex-direction: row;
 }
-.logoblock img{
+
+.logoblock img {
     filter: grayscale(100%);
     opacity: 0.5;
-    margin:0px 50px;
+    margin: 0px 50px;
+    -webkit-filter: grayscale(100%);
 }
+
 .logoblock img:hover {
     filter: grayscale(0);
     opacity: 1;
+    -webkit-filter: grayscale(0);
 }
-.offwatch{
+
+.offwatch {
     padding-top: 70px;
     padding-bottom: 0px;
-    width: 1333px;
+    display: flex;
+    justify-content: center;
     height: 118px;
     font-family: Lato, sans-serif;
 }
-.boxoff{
-    background-image: url(	https://angular.pixelstrap.com/multikart/assets/images/offer-banner-2.jpg);
+
+.boxoff {
+    background-image: url(https://angular.pixelstrap.com/multikart/assets/images/offer-banner-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -116,12 +133,14 @@
     align-items: center;
     text-align: center;
 }
-.titleoff{
+
+.titleoff {
     width: 50%;
     height: 118px;
     padding: 0px 12px;
 }
-.saveoff{
+
+.saveoff {
     padding-top: 45px;
     padding-bottom: 45px;
     font-size: 28px;
@@ -133,7 +152,8 @@
     line-height: 1;
     letter-spacing: 0.02em;
 }
-.timer{
+
+.timer {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 40px;
@@ -143,10 +163,11 @@
     width: 280px;
     height: 51px;
 }
-.demo{
+
+.demo {
     font-family: Lato, sans-serif;
     width: 280px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -156,14 +177,17 @@
     color: #ffffff;
     margin: 0;
     line-height: 24px;
-    letter-spacing: 0.03em; 
+    letter-spacing: 0.03em;
 }
-.watches{
-    width: 1330px;
+
+.watches {
+    display: flex;
+    justify-content: center;
     height: 494px;
-    padding:  70px 0px;
+    padding: 70px 0px;
 }
-.watchbox{
+
+.watchbox {
     padding: 0px 12px;
     height: 494px;
     margin: 0px 105px;
@@ -173,14 +197,16 @@
     align-items: center;
     text-align: center;
 }
-.inserted{
+
+.inserted {
     touch-action: pan-y;
     position: relative;
     min-height: 1px;
     width: 279px;
     height: 494px;
 }
-.categorywatch{
+
+.categorywatch {
     margin: 0px 20px;
     border: 1px solid #dddada;
     margin: 0 auto;
@@ -191,9 +217,13 @@
     position: relative;
     width: 237px;
     height: 412px;
-
 }
-.namewatch{
+
+.categorywatch:hover{
+    border-color: #e4604a;
+}
+
+.namewatch {
     text-transform: uppercase;
     color: #2d2a25;
     font-weight: 700;
@@ -205,7 +235,8 @@
     font-family: Lato, sans-serif;
     font-size: 18px;
 }
-.categorylink{
+
+.categorylink {
     width: 237px;
     height: 99px;
     padding: 0;
@@ -216,7 +247,8 @@
     align-items: center;
     justify-content: center;
 }
-.categorylist{
+
+.categorylist {
     font-family: Lato, sans-serif;
     font-size: 14px;
     width: 237px;
@@ -227,10 +259,12 @@
     text-decoration: none;
     cursor: pointer;
 }
-.categorylist:hover{
+
+.categorylist:hover {
     color: #e4604a;
 }
-.btnmore{
+
+.btnmore {
     font-family: Lato, sans-serif;
     margin-top: 20px;
     display: inline-block;
@@ -248,14 +282,14 @@
     height: 20px;
 }
 
-.trendingproducts{
+.trendingproducts {
     padding: 0 !important;
     font-family: Lato, sans-serif;
-    width: 1333px;
     height: 1144px;
-    background-color:#f7e8ea;
+    background-color: #f7e8ea;
 }
-.tabproducts{
+
+.tabproducts {
     position: relative;
     padding: 70px 62px 60px 62px;
     height: 1015px;
@@ -263,7 +297,9 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-}.titletrebd{
+}
+
+.titletrebd {
     padding-bottom: 15px;
     margin-bottom: 0;
     position: relative;
@@ -281,7 +317,8 @@
     width: 1270px;
     height: 32px;
 }
-.line{
+
+.line {
     position: relative;
     height: 1px;
     width: 180px;
@@ -290,12 +327,14 @@
     margin-bottom: 55px;
     align-items: center;
 }
-.themetab{
+
+.themetab {
     position: relative;
     width: 1225px;
     height: 1000px;
 }
-.tablists{
+
+.tablists {
     margin-bottom: 30px;
     text-align: center;
     font-size: 18px;
@@ -308,7 +347,8 @@
     flex-direction: row;
     height: 27px;
 }
-.tablist{
+
+.tablist {
     padding-left: 25px;
     padding-right: 25px;
     font-size: 18px;
@@ -318,7 +358,8 @@
     text-transform: uppercase;
     color: #2d2a25;
 }
-.watcheslist{
+
+.watcheslist {
     margin-top: 0.5rem !important;
     width: 1270px;
     height: 866px;
@@ -326,28 +367,31 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-.productbox{
+
+.productbox {
     margin: 0 12px 30px;
     padding: 0;
     height: 418px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-
 }
-.productsbox{
+
+.productsbox {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.imgeswrapper{
+
+.imgeswrapper {
     position: relative;
     overflow: hidden;
     width: 288px;
     height: 314px;
 }
-.new{
-    background-color:#e4604a;
+
+.new {
+    background-color: #e4604a;
     border-radius: 100%;
     color: #ffffff;
     font-size: 13px;
@@ -355,7 +399,7 @@
     font-weight: 700;
     text-align: center;
     align-items: center;
-    position:absolute;
+    position: absolute;
     top: 7px;
     left: 7px;
     width: 31px;
@@ -363,13 +407,15 @@
     text-transform: uppercase;
     display: inline-flex;
 }
-.productsdetail{
+
+.productsdetail {
     width: 288px;
     height: 103px;
     text-align: start;
     font-family: Lato, sans-serif;
 }
-.stars{
+
+.stars {
     font-size: 26px;
     color: #EDB867;
     width: 255px;
@@ -383,7 +429,8 @@
     align-items: center;
     flex-direction: row;
 }
-.fa-star{
+
+.fa-star {
     cursor: default;
     text-rendering: auto;
     font-size: 12px !important;
@@ -397,8 +444,9 @@
     padding: 0;
     margin: 0;
 }
-.linkwatch{
-    text-decoration:none;
+
+.linkwatch {
+    text-decoration: none;
     cursor: pointer;
     line-height: 1;
     margin-bottom: 3px;
@@ -412,7 +460,8 @@
     width: 288px;
     height: 16px;
 }
-.mony{
+
+.mony {
     font-size: 18px;
     color: #222222;
     font-weight: 700;
@@ -422,18 +471,20 @@
     letter-spacing: 0.03em;
     line-height: 1;
 }
- .monydel{
+
+.monydel {
     color: #aaa;
     font-size: 14px;
     font-weight: 400;
     text-transform: capitalize;
     letter-spacing: 0.03em;
     line-height: 1;
-    text-decoration: line-through;  
-} 
-.colorvariant{
+    text-decoration: line-through;
+}
+
+.colorvariant {
     padding-top: 12px;
-    padding-left:0px;
+    padding-left: 0px;
     margin: 0;
     list-style-type: none;
     width: 255px;
@@ -443,7 +494,8 @@
     flex-wrap: nowrap;
     justify-self: start;
 }
-.colorwatch{
+
+.colorwatch {
     border-radius: 100%;
     margin-right: 5px;
     margin-left: 0;
@@ -453,14 +505,15 @@
     height: 20px;
 }
 
-.trendingproducts2{
+.trendingproducts2 {
     padding-top: 70px;
     padding-bottom: 0px;
     margin: 0;
     width: 1270;
     height: 494px;
 }
-.productesnew{
+
+.productesnew {
     font-family: Lato, sans-serif;
     width: 1270px;
     height: 494px;
@@ -471,7 +524,8 @@
     justify-content: center;
     flex-direction: column;
 }
-.productarrow{
+
+.productarrow {
     position: relative;
     width: 1100px;
     height: 396px;
@@ -483,26 +537,30 @@
     display: flex;
     flex-direction: row;
 }
-.owlitem{
+
+.owlitem {
     width: 255px;
     height: 396px;
     padding: 0 12px;
     touch-action: pan-y;
     user-select: none;
 }
-.imgwatchwrapper{
+
+.imgwatchwrapper {
     position: relative;
     width: 255px;
     height: 278px;
     padding: 0;
     margin: 0;
 }
-.productdetailtext{
+
+.productdetailtext {
     text-align: center !important;
     width: 255px;
     height: 103px;
 }
-.partition{
+
+.partition {
     padding-top: 70px;
     padding: 70px 0px 0px 0px;
     margin: 0px 105px;
@@ -510,15 +568,18 @@
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: center;
 }
-.partition1{
+
+.partition1 {
     width: 356px;
     height: 164px;
     padding: 0px 12px;
     position: relative;
     overflow: hidden;
 }
-.banner{
+
+.banner {
     font-family: Lato, sans-serif;
     padding-left: 45px;
     padding-right: 45px;
@@ -532,14 +593,16 @@
     width: 266px;
     height: 164px;
 }
-.bannertitle{
+
+.bannertitle {
     width: 230px;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.minimum{
+
+.minimum {
     color: #ffffff;
     letter-spacing: 0.01em;
     font-weight: 700;
@@ -550,7 +613,8 @@
     line-height: 1;
     cursor: pointer;
 }
-.titrbanner{
+
+.titrbanner {
     font-size: 30px;
     letter-spacing: 0.05em;
     color: white;
@@ -560,18 +624,21 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-.specialproducts{
+
+.specialproducts {
     padding: 70px 12px;
     margin: 0px 105px;
     font-family: Lato, sans-serif;
     height: 669px;
 }
-.special{
+
+.special {
     padding-bottom: 15px;
     margin-bottom: 0;
     position: relative;
     margin-top: -5px;
-    font-size: 32px;color: #222222;
+    font-size: 32px;
+    color: #222222;
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1;
@@ -579,12 +646,14 @@
     text-align: center;
     margin: 0 auto;
 }
-.specialwatches{
+
+.specialwatches {
     display: flex;
     flex-wrap: wrap;
     height: 571px;
 }
-.namwatch{
+
+.namwatch {
     width: 356px;
     height: 571px;
     padding: 0px 12px;
@@ -593,14 +662,15 @@
     display: flex;
     flex-direction: column;
 }
-.pricwatch{
+
+.pricwatch {
     width: 356px;
     height: 285px;
     align-items: center !important;
     display: flex !important;
-
 }
-.imgprice{
+
+.imgprice {
     height: 300px;
     margin-bottom: -15px;
     padding: 15px 15px 15px 0 !important;
@@ -608,13 +678,15 @@
     width: 248px;
     height: 270px;
 }
-.mediaprice{
+
+.mediaprice {
     align-self: center !important;
     font-family: Lato, sans-serif;
     width: 78px;
     height: 104px;
 }
-.namwatch2{
+
+.namwatch2 {
     width: 356px;
     height: 571px;
     padding: 0px 12px;
@@ -626,44 +698,50 @@
     border-left: 1px solid #f1f5f4;
     border-right: 1px solid #f1f5f4;
 }
-.watchecenter{
+
+.watchecenter {
     width: 354px;
     height: 502px;
 }
-.RecentStory{
+
+.RecentStory {
     background-color: #f1f5f4;
     padding: 70px 0px;
     font-family: Lato, sans-serif;
     margin: 0px;
     height: 434px;
-    
 }
-.RecentStorypage{
+
+.RecentStorypage {
     padding: 0px 12px;
     margin: 0px 105px;
     height: 434px;
 }
-.Storywatches{
+
+.Storywatches {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     height: 331px;
-
+    justify-content: center;
 }
-.story1{
+
+.story1 {
     width: 348px;
     height: 331px;
     padding: 0 12px;
     line-height: 1;
 }
-.titrstory{
+
+.titrstory {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     width: 318px;
     height: 105px;
 }
-.moonjan{
+
+.moonjan {
     margin-top: 20px;
     color: #e4604a;
     line-height: 1;
@@ -673,7 +751,8 @@
     font-weight: 400;
     letter-spacing: 0.03em;
 }
-.textstory{
+
+.textstory {
     font-size: 16px;
     color: #222222;
     text-transform: uppercase;
@@ -685,10 +764,12 @@
     cursor: pointer;
     text-decoration: none;
 }
-.textstory:hover{
+
+.textstory:hover {
     color: #e4604a;
 }
-.linestory{
+
+.linestory {
     width: 75px;
     height: 0.4px;
     margin-top: 7px;
@@ -696,7 +777,8 @@
     opacity: 1;
     background-color: #222222;
 }
-.timestory{
+
+.timestory {
     font-size: 14px;
     font-weight: 400;
     color: #777777;
